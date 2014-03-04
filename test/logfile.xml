@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Addressbook Test Suite" tests="2" assertions="5" failures="0" errors="0" time="0.046740">
+    <testsuite name="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" tests="2" assertions="5" failures="0" errors="0" time="0.046740">
+      <testcase name="testStringComparison" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="6" assertions="4" time="0.037001"/>
+      <testcase name="testMath" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="22" assertions="1" time="0.009739"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

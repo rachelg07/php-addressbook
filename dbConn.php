@@ -1,4 +1,10 @@
-<?php $mysqli = new mysqli ("192.168.1.130","dev","Corona07","people") or 
-die(mysql_error ()); echo "Connected successfully."; ?>
+<?php
+$logger_path = $_SERVER['DOCUMENT_ROOT']."/_includes/logger.php";
+include_once($logger_path);
+
+$log->info("Initializing MySQL client");
+ $mysqli = new mysqli ("10.10.102.130","dev","Corona07","people") or 
+die(mysql_error ()); 
+$log->trace ("Connected successfully."); ?>
 
 
