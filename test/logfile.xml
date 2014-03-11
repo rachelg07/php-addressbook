@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Addressbook Test Suite" tests="17" assertions="33" failures="0" errors="0" time="0.184147">
-    <testsuite name="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" fullPackage="php_addressbook.test.entities" package="php_addressbook.test.entities" tests="15" assertions="28" failures="0" errors="0" time="0.155172">
-      <testcase name="testPersonConstructor" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="35" assertions="7" time="0.047614"/>
-      <testcase name="testSetFirstName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="51" assertions="2" time="0.012727"/>
-      <testcase name="testGetFirstName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="58" assertions="1" time="0.006897"/>
-      <testcase name="testSetLastName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="68" assertions="2" time="0.007823"/>
-      <testcase name="testGetLastName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="75" assertions="1" time="0.006978"/>
-      <testcase name="testSetAddress" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="84" assertions="2" time="0.007633"/>
-      <testcase name="testGetAddress" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="91" assertions="1" time="0.007338"/>
-      <testcase name="testSetCity" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="101" assertions="2" time="0.007682"/>
-      <testcase name="testGetCity" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="108" assertions="1" time="0.006586"/>
-      <testcase name="testSetState" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="117" assertions="2" time="0.008022"/>
-      <testcase name="testGetState" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="124" assertions="1" time="0.006888"/>
-      <testcase name="testSetZip" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="133" assertions="2" time="0.007637"/>
-      <testcase name="testGetZip" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="140" assertions="1" time="0.006808"/>
-      <testcase name="testSetPhone" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="150" assertions="2" time="0.007864"/>
-      <testcase name="testGetPhone" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="157" assertions="1" time="0.006675"/>
+  <testsuite name="Addressbook Test Suite" tests="17" assertions="33" failures="0" errors="0" time="0.152051">
+    <testsuite name="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" fullPackage="php_addressbook.test.entities" package="php_addressbook.test.entities" tests="15" assertions="28" failures="0" errors="0" time="0.125067">
+      <testcase name="testPersonConstructor" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="35" assertions="7" time="0.020657"/>
+      <testcase name="testSetFirstName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="51" assertions="2" time="0.009911"/>
+      <testcase name="testGetFirstName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="58" assertions="1" time="0.007016"/>
+      <testcase name="testSetLastName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="68" assertions="2" time="0.007714"/>
+      <testcase name="testGetLastName" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="75" assertions="1" time="0.007087"/>
+      <testcase name="testSetAddress" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="84" assertions="2" time="0.008196"/>
+      <testcase name="testGetAddress" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="91" assertions="1" time="0.006987"/>
+      <testcase name="testSetCity" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="101" assertions="2" time="0.007653"/>
+      <testcase name="testGetCity" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="108" assertions="1" time="0.006477"/>
+      <testcase name="testSetState" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="117" assertions="2" time="0.007458"/>
+      <testcase name="testGetState" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="124" assertions="1" time="0.006945"/>
+      <testcase name="testSetZip" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="133" assertions="2" time="0.007540"/>
+      <testcase name="testGetZip" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="140" assertions="1" time="0.006588"/>
+      <testcase name="testSetPhone" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="150" assertions="2" time="0.007947"/>
+      <testcase name="testGetPhone" class="personTest" file="/home/rachelg07/workspace/php-addressbook/test/entities/personTest.php" line="157" assertions="1" time="0.006892"/>
     </testsuite>
-    <testsuite name="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" tests="2" assertions="5" failures="0" errors="0" time="0.028975">
-      <testcase name="testStringComparison" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="6" assertions="4" time="0.020089"/>
-      <testcase name="testMath" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="22" assertions="1" time="0.008886"/>
+    <testsuite name="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" tests="2" assertions="5" failures="0" errors="0" time="0.026983">
+      <testcase name="testStringComparison" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="6" assertions="4" time="0.017732"/>
+      <testcase name="testMath" class="simpleTest" file="/home/rachelg07/workspace/php-addressbook/test/simpleTest.php" line="22" assertions="1" time="0.009251"/>
     </testsuite>
   </testsuite>
 </testsuites>
